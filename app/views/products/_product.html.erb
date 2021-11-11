@@ -23,6 +23,6 @@
     </aside>
   <% end %>
     <aside class="price">
-      <%= humanized_money_with_symbol number_to_currency(product.price, precision: 2) %>
+      <%= number_to_currency(product.price, precision: 2) %>
     </aside>
 </article>
