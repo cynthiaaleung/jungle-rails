@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 
   resources :products, only: [:index, :show]
   resources :categories, only: [:show]
-  resources :about
+  resources :about, only: [:index]
 
   resource :cart, only: [:show] do
     post   :add_item
@@ -12,6 +12,14 @@ Rails.application.routes.draw do
   end
 
   resources :orders, only: [:create, :show]
+
+  get '/login' => 'sessions#new' #shows login form
+  post '/login' => 'sessions#create'
+  get '/logout' => 'sessions#destroy'
+
+  get '/signup' => 'users#new' #renders form in the browser
+  post '/users' => 'users#create' #receives form data and create user in db
+
 
   namespace :admin do
     root to: 'dashboard#show'
