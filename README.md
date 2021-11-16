@@ -31,3 +31,11 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
 * PostgreSQL 9.x
 * Stripe
+
+## Screenshots
+
+!["Logged-in home page"](https://github.com/cynthiaaleung/jungle-rails/blob/master/docs/logged-in-homepage.png?raw=true)
+
+!["Inputting payment details"](https://github.com/cynthiaaleung/jungle-rails/blob/master/docs/order-payment.png?raw=true)
+
+!["Order confirmation"](https://github.com/cynthiaaleung/jungle-rails/blob/master/docs/order-completed.png?raw=true)
