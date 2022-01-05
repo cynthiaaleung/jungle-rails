@@ -32,10 +32,15 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * PostgreSQL 9.x
 * Stripe
 
-## Screenshots
+## Final Product
 
+This is a logged-in user's homepage which displays all the products. Sold out items are indicated with a red badge.
 !["Logged-in home page"](https://github.com/cynthiaaleung/jungle-rails/blob/master/docs/logged-in-homepage.png?raw=true)
 
+
+This is the cart page where the user can see the items they added, change the quantity, and also checkout using Stripe.
 !["Inputting payment details"](https://github.com/cynthiaaleung/jungle-rails/blob/master/docs/order-payment.png?raw=true)
 
+
+A confirmation page appears after the payment is made. The user can click the "Continue Shopping" button to navigate to the homepage.
 !["Order confirmation"](https://github.com/cynthiaaleung/jungle-rails/blob/master/docs/order-completed.png?raw=true)
