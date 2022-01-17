@@ -28,9 +28,12 @@ Use Credit Card # 4111 1111 1111 1111 for testing success scenarios.
 
 More information in their docs: <https://stripe.com/docs/testing#cards>
 
-## Dependencies
+## Tech Stack & Dependencies
 
+* Ruby
 * Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
+* ERB
+* SCSS
 * PostgreSQL 9.x
 * Stripe
 
