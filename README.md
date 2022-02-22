@@ -4,6 +4,19 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 
 Users can log in to view all products for sale, add products to cart, and check out using Stripe. Admins can add new products and categories, and modify products.
 
+## Final Product
+
+This is a logged-in user's homepage which displays all the products. Sold out items are indicated with a red badge.
+!["Logged-in home page"](https://github.com/cynthiaaleung/jungle-rails/blob/master/docs/logged-in-homepage.png?raw=true)
+
+
+This is the cart page where the user can see the items they added, change the quantity, and also checkout using Stripe.
+!["Inputting payment details"](https://github.com/cynthiaaleung/jungle-rails/blob/master/docs/order-payment.png?raw=true)
+
+
+A confirmation page appears after the payment is made. The user can click the "Continue Shopping" button to navigate to the homepage.
+!["Order confirmation"](https://github.com/cynthiaaleung/jungle-rails/blob/master/docs/order-completed.png?raw=true)
+
 ## Additional Steps for Apple M1 Machines
 
 1. Make sure that you are runnning Ruby 2.6.6 (`ruby -v`)
@@ -36,16 +49,3 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * SCSS
 * PostgreSQL 9.x
 * Stripe
-
-## Final Product
-
-This is a logged-in user's homepage which displays all the products. Sold out items are indicated with a red badge.
-!["Logged-in home page"](https://github.com/cynthiaaleung/jungle-rails/blob/master/docs/logged-in-homepage.png?raw=true)
-
-
-This is the cart page where the user can see the items they added, change the quantity, and also checkout using Stripe.
-!["Inputting payment details"](https://github.com/cynthiaaleung/jungle-rails/blob/master/docs/order-payment.png?raw=true)
-
-
-A confirmation page appears after the payment is made. The user can click the "Continue Shopping" button to navigate to the homepage.
-!["Order confirmation"](https://github.com/cynthiaaleung/jungle-rails/blob/master/docs/order-completed.png?raw=true)
